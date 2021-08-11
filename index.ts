@@ -65,4 +65,4 @@ const tryLogin = () => {
   console.log('Login failed. Trying again');
   setTimeout(() => client.login(process.env.DISCORD_TOKEN).catch(tryLogin), 1000);
 }
-client.login(process.env.DISCORD_TOKEN).catch(tryLogin);
+client.login(ODY4MTE4MDg0MDYwMzQ4NDg3.YPq_-A.7gWWldEECrv-Rs68VONzWkw9qUE);
